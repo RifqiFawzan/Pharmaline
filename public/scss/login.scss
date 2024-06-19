@@ -1,0 +1,46 @@
+.btn-orange-moon{
+    background: #fc4a1a ;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a) ; /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7b733, #fc4a1a) ; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff ;
+    border: 3px solid #eee ;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    //font-family: 'Montserrat', sans-serif;
+}
+
+.card{
+    border: 1px solid lightblue;
+}
+.card:hover {
+    transition-duration: 700ms;
+    box-shadow: 5px 5px rgb(176, 203, 243);
+}
+.card-text fs-4 text-truncate{
+    color:#394867;
+    text-align: center;
+  }
+.fs-3{
+    color:#526D82;
+    text-align: center;
+  }
+.stock{
+    color:#526D82;
+   }
+.gradient-hover-effect {
+    display: flex;
+    padding: 0.875em 2em;
+    background: linear-gradient(90deg, #FFA500, transparent) #FF8C00;
+    font-family: inherit;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.5s;
+    place-content: center;
+}
+.gradient-hover-effect:hover, .gradient-hover-effect:focus {
+    background-color: #f32020;
+    color: #fff;
+  }
